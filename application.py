@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-data = data = {
+data = {
     'siteName': 'nerdymark.com',
     'posts': [
         {'createdDate': '2021-06-02 19:03:00',
