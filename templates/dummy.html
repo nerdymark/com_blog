@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+        <!-- Single Content -->
+        <div id="content" class="site-content center-relative">
+            <div class="single-post-wrapper content-1070 center-relative">
+
+                <article class="center-relative">
+                    <h1 class="entry-title">
+                        {{post.title}}
+                    </h1>
+                    <div class="post-info content-660 center-relative">
+                        <div class="cat-links">
+                            <ul>
+                                <li><a href="/category/{{post.category}}">{{post.category}}</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-date published">{{post.createdDate}}</div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="entry-content">
+                        </div>
+                        <div class="content-wrap content-660 center-relative ">
+                            <p>
+                                You might have ended up here because your site vulnerability scanner found something interesting. Hi! I'm a security engineer and I'm having a good time interacting with the people and bots that are interested in information security. You will hopefully find this site is well-secured and I'm not interested in being hacked. I'm interested in learning about how people try to hack me, though.
+                            </p>
+                            <p>
+                                Follow me on Twitter, sometimes I post interesting things. <a href="https://twitter.com/nerdymark">@nerdymark</a>
+                            </p>
+                            <p>
+                                I'm also on <a href="https://www.linkedin.com/in/marklacore/">LinkedIn</a> and <a href="https://github.com/nerdymark">GitHub</a>.
+                            </p>
+                            <p><strong>What is {{post.title}}?</strong> <em>{{post.description}}</em></p>
+                        <a href={{post.link}} target="_blank">Read more</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </article>
+            </div>
+        </div>
+{% endblock %}

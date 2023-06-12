@@ -1,0 +1,542 @@
+[
+    {
+      "title": "+target=/_blank",
+      "description": "Opens the linked document in a new window or tab",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target"
+    },
+    {
+      "title": "+CSCOU+/portal.css",
+      "description": "Cisco ASA Clientless SSL VPN Portal Customization Integrity Vulnerability",
+      "link": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20160210-asa-portal"
+    },
+    {
+      "title": ".DS_Store",
+      "description": "A hidden file created by Apple's Mac OS X operating system to store custom attributes of a folder such as the position of icons or the choice of a background image.",
+      "link": "https://en.wikipedia.org/wiki/.DS_Store"
+    },
+    {
+      "title": ".aws/credentials",
+      "description": "AWS credentials file",
+      "link": "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html"
+    },
+    {
+      "title": ".env",
+      "description": "A file where you can store your sensitive data like API keys, passwords, etc.",
+      "link": "https://www.npmjs.com/package/dotenv"
+    },
+    {
+      "title": ".env.bak",
+      "description": "A file where you can store your sensitive data like API keys, passwords, etc.",
+      "link": "https://www.npmjs.com/package/dotenv"
+    },
+    {
+      "title": ".env.staging",
+      "description": "A file where you can store your sensitive data like API keys, passwords, etc.",
+      "link": "https://www.npmjs.com/package/dotenv"
+    },
+    {
+      "title": ".git/HEAD",
+      "description": "Git repository",
+      "link": "https://git-scm.com/docs/gitrepository-layout"
+    },
+    {
+      "title": ".git/config",
+      "description": "Git repository",
+      "link": "https://git-scm.com/docs/gitrepository-layout"
+    },
+    {
+      "title": ".vscode/sftp.json",
+      "description": "VSCode SFTP config file",
+      "link": "https://marketplace.visualstudio.com/items?itemName=liximomo.sftp"
+    },
+    {
+      "title": ".well-known/security.txt",
+      "description": "A proposed standard that allows websites to define security policies.",
+      "link": "https://securitytxt.org/"
+    },
+    {
+      "title": "Autodiscover/Autodiscover.xml",
+      "description": "Autodiscover is the feature that Outlook uses to obtain configuration information for servers to which it connects.",
+      "link": "https://docs.microsoft.com/en-us/exchange/architecture/client-access/autodiscover?view=exchserver-2019"
+    },
+    {
+      "title": "Core/Skin/Login.aspx",
+      "description": "DNN CMS",
+      "link": "https://www.dnnsoftware.com/"
+    },
+    {
+      "title": "DomHB4/?mode=portfolio",
+      "description": "DomHB4",
+      "link": "https://www.domhb4.com/"
+    },
+    {
+      "title": "Dora4/",
+      "description": "Dora4",
+      "link": "https://www.dora4.com/"
+    },
+    {
+      "title": "FD873AC4-CF86-4FED-84EC-4BD59C6F17A7",
+      "description": "Microsoft Teams",
+      "link": "https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links"
+    },
+    {
+      "title": "ReportServer",
+      "description": "JasperReports Server",
+      "link": "https://community.jaspersoft.com/project/jasperreports-server"
+    },
+    {
+      "title": "_all_dbs",
+      "description": "MongoDB",
+      "link": "https://docs.mongodb.com/manual/reference/command/listDatabases/"
+    },
+    {
+      "title": "_ignition/execute-solution",
+      "description": "Laravel Ignition",
+      "link": "https://flareapp.io/docs/general/projects"
+    },
+    {
+      "title": "_profiler/phpinfo",
+      "description": "Laravel Debugbar",
+      "link": "https://phpdebugbar.com/docs/"
+    },
+    {
+      "title": "actuator/gateway/routes",
+      "description": "Spring Boot Actuator",
+      "link": "https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints"
+    },
+    {
+      "title": "actuator/health",
+      "description": "Spring Boot Actuator",
+      "link": "https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints"
+    },
+    {
+      "title": "autodiscover/autodiscover.json?@zdi/Powershell",
+      "description": "Microsoft Exchange Autodiscover",
+      "link": "https://docs.microsoft.com/en-us/exchange/architecture/client-access/autodiscover?view=exchserver-2019"
+    },
+    {
+      "title": "autodiscover/autodiscover.json?a..foo.var/owa/?&Email=autodiscover/autodiscover.json?a..foo.var&Protocol=XYZ&FooProtocol=Powershell",
+      "description": "Microsoft Exchange Autodiscover",
+      "link": "https://docs.microsoft.com/en-us/exchange/architecture/client-access/autodiscover?view=exchserver-2019"
+    },
+    {
+      "title": "aws.yml",
+      "description": "AWS credentials file",
+      "link": "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html"
+    },
+    {
+      "title": "community/",
+      "description": "DNN CMS",
+      "link": "https://www.dnnsoftware.com/"
+    },
+    {
+      "title": "config.json",
+      "description": "JSON configuration file",
+      "link": "https://www.json.org/json-en.html"
+    },
+    {
+      "title": "config/aws.yml",
+      "description": "AWS credentials file",
+      "link": "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html"
+    },
+    {
+      "title": "console/",
+      "description": "Laravel",
+      "link": "https://laravel.com/docs/artisan"
+    },
+    {
+      "title": "data/nextcloud.log",
+      "description": "Nextcloud",
+      "link": "https://docs.nextcloud.com/server/latest/admin_manual/"
+    },
+    {
+      "title": "data/owncloud.log",
+      "description": "ownCloud",
+      "link": "https://doc.owncloud.com/server/admin_manual/"
+    },
+    {
+      "title": "db.sql",
+      "description": "SQL database dump",
+      "link": "https://en.wikipedia.org/wiki/SQL"
+    },
+    {
+      "title": "debug/default/view?panel=config",
+      "description": "Laravel Debugbar",
+      "link": "https://phpdebugbar.com/docs/"
+    },
+    {
+      "title": "dns-query",
+      "description": "DNS over HTTPS",
+      "link": "https://tools.ietf.org/html/rfc8484"
+    },
+    {
+      "title": "dns-query?dns=6g8BAAABAAAAAAAABmdvb2dsZQNjb20AAAEAAQ",
+      "description": "DNS over HTTPS",
+      "link": "https://tools.ietf.org/html/rfc8484"
+    },
+    {
+      "title": "dns-query?dns=FlMBAAABAAAAAAAABmdvb2dsZQNjb20AAAEAAQ",
+      "description": "DNS over HTTPS",
+      "link": "https://tools.ietf.org/html/rfc8484"
+    },
+    {
+      "title": "dns-query?dns=L94BAAABAAAAAAAABmdvb2dsZQNjb20AAAEAAQ",
+      "description": "DNS over HTTPS",
+      "link": "https://tools.ietf.org/html/rfc8484"
+    },
+    {
+      "title": "dns-query?dns=MAYBAAABAAAAAAAABmdvb2dsZQNjb20AAAEAAQ",
+      "description": "DNS over HTTPS",
+      "link": "https://tools.ietf.org/html/rfc8484"
+    },
+    {
+      "title": "dns-query?dns=wWIBAAABAAAAAAAABmdvb2dsZQNjb20AAAEAAQ",
+      "description": "DNS over HTTPS",
+      "link": "https://tools.ietf.org/html/rfc8484"
+    },
+    {
+      "title": "ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application",
+      "description": "Microsoft Exchange",
+      "link": "https://docs.microsoft.com/en-us/exchange/architecture/client-access/autodiscover?view=exchserver-2019"
+    },
+    {
+      "title": "geoserver",
+      "description": "GeoServer",
+      "link": "http://geoserver.org/"
+    },
+    {
+      "title": "geoserver/web/",
+      "description": "GeoServer",
+      "link": "http://geoserver.org/"
+    },
+    {
+      "title": "inbox?mode=message&user=1596416",
+      "description": "Atlassian Jira",
+      "link": "https://www.atlassian.com/software/jira"
+    },
+    {
+      "title": "index.php?s=/Index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21",
+      "description": "ThinkPHP",
+      "link": "https://thinkphp.cn/"
+    },
+    {
+      "title": "info.php",
+      "description": "PHP info page",
+      "link": "https://www.php.net/manual/en/function.phpinfo.php"
+    },
+    {
+      "title": "login",
+      "description": "Django",
+      "link": "https://docs.djangoproject.com/en/3.1/topics/auth/default/"
+    },
+    {
+      "title": "login.action",
+      "description": "Atlassian Jira",
+      "link": "https://www.atlassian.com/software/jira"
+    },
+    {
+      "title": "mgmt/shared/authn/login",
+      "description": "F5 BIG-IP",
+      "link": "https://support.f5.com/csp/article/K07364617"
+    },
+    {
+      "title": "mifs/.;/services/LogService",
+      "description": "F5 BIG-IP",
+      "link": "https://support.f5.com/csp/article/K07364617"
+    },
+    {
+      "title": "nextcloud/data/nextcloud.log",
+      "description": "Nextcloud",
+      "link": "https://docs.nextcloud.com/server/latest/admin_manual/"
+    },
+    {
+      "title": "owa",
+      "description": "Microsoft Outlook Web Access",
+      "link": "https://docs.microsoft.com/en-us/exchange/clients/outlook-web-app?view=exchserver-2019"
+    },
+    {
+      "title": "owa/",
+      "description": "Microsoft Outlook Web Access",
+      "link": "https://docs.microsoft.com/en-us/exchange/clients/outlook-web-app?view=exchserver-2019"
+    },
+    {
+      "title": "owa/auth.owa",
+      "description": "Microsoft Outlook Web Access",
+      "link": "https://docs.microsoft.com/en-us/exchange/clients/outlook-web-app?view=exchserver-2019"
+    },
+    {
+      "title": "owa/auth/logon.aspx",
+      "description": "Microsoft Outlook Web Access",
+      "link": "https://docs.microsoft.com/en-us/exchange/clients/outlook-web-app?view=exchserver-2019"
+    },
+    {
+      "title": "owa/auth/x.js",
+      "description": "Microsoft Outlook Web Access",
+      "link": "https://docs.microsoft.com/en-us/exchange/clients/outlook-web-app?view=exchserver-2019"
+    },
+    {
+      "title": "owncloud/data/owncloud.log",
+      "description": "ownCloud",
+      "link": "https://doc.owncloud.com/server/admin_manual/"
+    },
+    {
+      "title": "phpinfo",
+      "description": "PHP info page",
+      "link": "https://www.php.net/manual/en/function.phpinfo.php"
+    },
+    {
+      "title": "phpinfo.php",
+      "description": "PHP info page",
+      "link": "https://www.php.net/manual/en/function.phpinfo.php"
+    },
+    {
+      "title": "remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession",
+      "description": "Fortinet FortiGate",
+      "link": "https://docs.fortinet.com/document/fortigate/6.2.0/cookbook/935511/ssl-vpn-web-mode"
+    },
+    {
+      "title": "s/937313e2631313e22353e22353/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties",
+      "description": "Atlassian Jira",
+      "link": "https://www.atlassian.com/software/jira"
+    },
+    {
+      "title": "server-status",
+      "description": "Apache server status page",
+      "link": "https://httpd.apache.org/docs/2.4/mod/mod_status.html"
+    },
+    {
+      "title": "t4",
+      "description": "T4 templating engine",
+      "link": "https://docs.microsoft.com/en-us/visualstudio/modeling/code-generation-and-t4-text-templates?view=vs-2019"
+    },
+    {
+      "title": "tmui/login.jsp",
+      "description": "F5 BIG-IP",
+      "link": "https://support.f5.com/csp/article/K07364617"
+    },
+    {
+      "title": "tt-976.html",
+      "description": "Trend Micro InterScan Web Security Virtual Appliance",
+      "link": "https://docs.trendmicro.com/en-us/enterprise/interScan-web-security-virtual-appliance-60/interScan-web-security-virtual-appliance-60-installation-and-deployment-guide/interScan-web-security-virtual-appliance-60-installation-and-deployment-guide-01_001/using-the-web-console.aspx"
+    },
+    {
+      "title": "v2/_catalog",
+      "description": "Docker registry",
+      "link": "https://docs.docker.com/registry/spec/api/"
+    },
+    {
+      "title": "vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "description": "PHPUnit",
+      "link": "https://phpunit.de/"
+    },
+    {
+      "title": "wp-content/plugins/hellopress/wp_mna.php",
+      "description": "WordPress",
+      "link": "https://wordpress.org/"
+    },
+    {
+      "title": "wp-login.php",
+      "description": "WordPress",
+      "link": "https://wordpress.org/"
+    },
+    {
+      "title": "protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "description": "PHPUnit",
+      "link": "https://phpunit.de/"
+    },
+    {
+      "title": "debug/default/view?panel=config/frontend_dev.php",
+      "description": "Symfony",
+      "link": "https://symfony.com/doc/current/setup/web_server_configuration.html"
+    },
+    {
+      "title": "api/index.php/v1/config/application?public=true",
+      "description": "GitLab",
+      "link": "https://docs.gitlab.com/ee/api/"
+    },
+    {
+      "title": "wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "description": "PHPUnit",
+      "link": "https://phpunit.de/"
+    },
+    {
+      "title": "debug/default/view",
+      "description": "Symfony",
+      "link": "https://symfony.com/doc/current/setup/web_server_configuration.html"
+    },
+    {
+      "title": "epa/scripts/win/nsepa_setup.exe",
+      "description": "EPA",
+      "link": "https://www.epa.gov/"
+    },
+    {
+      "title": "admin/config.php",
+      "description": "phpMyAdmin",
+      "link": "https://www.phpmyadmin.net/"
+    },
+    {
+      "title": "app_dev.php/_profiler/phpinfo",
+      "description": "Symfony",
+      "link": "https://symfony.com/doc/current/setup/web_server_configuration.html"
+    },
+    {
+      "title": "owa/auth/logon.aspx?url=https://1/ecp/",
+      "description": "Microsoft Outlook Web Access",
+      "link": "https://docs.microsoft.com/en-us/exchange/clients/outlook-web-app/mailbox-policies?view=exchserver-2019"
+    },
+    {
+      "title": "config/CONFIG",
+      "description": "Docker",
+      "link": "https://docs.docker.com/engine/reference/commandline/config/"
+    },
+    {
+      "title": "solr/",
+      "description": "Apache Solr",
+      "link": "https://lucene.apache.org/solr/"
+    },
+    {
+      "title": "frontend_dev.php/$",
+      "description": "Symfony",
+      "link": "https://symfony.com/doc/current/setup/web_server_configuration.html"
+    },
+    {
+      "title": "_profiler/info",
+      "description": "Symfony",
+      "link": "https://symfony.com/doc/current/setup/web_server_configuration.html"
+    },
+    {
+      "title": "dashboard/test.php",
+      "description": "phpMyAdmin",
+      "link": "https://www.phpmyadmin.net/"
+    },
+    {
+      "title": "cgi-bin/printenv.pl",
+      "description": "CGI scripts",
+      "link": "https://httpd.apache.org/docs/2.4/howto/cgi.html"
+    },
+    {
+      "title": "js/config.js",
+      "description": "GitLab",
+      "link": "https://docs.gitlab.com/ee/api/"
+    },
+    {
+      "title": "management/env",
+      "description": "Spring Boot Actuator",
+      "link": "https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html"
+    },
+    {
+      "title": "lib/phpunit/Util/PHP/eval-stdin.php",
+      "description": "PHPUnit",
+      "link": "https://phpunit.de/"
+    },
+    {
+      "title": "sapi/debug/default/view",
+      "description": "Symfony",
+      "link": "https://symfony.com/doc/current/setup/web_server_configuration.html"
+    },
+    {
+      "title": ".well-known/security.txt/",
+      "description": "Security.txt",
+      "link": "https://securitytxt.org/"
+    },
+    {
+      "title": "config/settings.inc.php",
+      "description": "phpMyAdmin",
+      "link": "https://www.phpmyadmin.net/"
+    },
+    {
+      "title": "app/config/parameters.yml",
+      "description": "Symfony",
+      "link": "https://symfony.com/doc/current/setup/web_server_configuration.html"
+    },
+    {
+      "title": "\"+target=/\"_blank",
+      "description": "HTML",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+    },
+    {
+      "title": "frontend/web/debug/default/view",
+      "description": "Symfony",
+      "link": "https://symfony.com/doc/current/setup/web_server_configuration.html"
+    },
+    {
+      "title": "_wpeprivate/config.json",
+      "description": "WordPress",
+      "link": "https://wordpress.org/"
+    },
+    {
+      "title": "core/Datavase/.env",
+      "description": "Laravel",
+      "link": "https://laravel.com/"
+    },
+    {
+      "title": "web/debug/default/view",
+      "description": "Symfony",
+      "link": "https://symfony.com/doc/current/setup/web_server_configuration.html"
+    },
+    {
+      "title": "admin/console/index.html",
+      "description": "Admin Console",
+      "link": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/AccessingTheConsole.html"
+    },
+    {
+      "title": "config/config.php",
+      "description": "phpMyAdmin",
+      "link": "https://www.phpmyadmin.net/"
+    },
+    {
+      "title": "WEB-INF/jetty-env.xml",
+      "description": "Jetty",
+      "link": "https://www.eclipse.org/jetty/documentation/9.4.x/jetty-jndi.html"
+    },
+    {
+      "title": "server/phpinfo.php",
+      "description": "PHP",
+      "link": "https://www.php.net/"
+    },
+    {
+      "title": "Public/home/js/check.js",
+      "description": "GitLab",
+      "link": "https://docs.gitlab.com/ee/api/"
+    },
+    {
+      "title": ".aws/config",
+      "description": "AWS CLI",
+      "link": "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html"
+    },
+    {
+      "title": "develop/info.php",
+      "description": "phpMyAdmin",
+      "link": "https://www.phpmyadmin.net/"
+    },
+    {
+      "title": "webfig/",
+      "description": "MikroTik",
+      "link": "https://mikrotik.com/"
+    },
+    {
+      "title": "local/local.yml",
+      "description": "Ansible",
+      "link": "https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html"
+    },
+    {
+      "title": "conf/config.ini",
+      "description": "phpMyAdmin",
+      "link": "https://www.phpmyadmin.net/"
+    },
+    {
+      "title": "debug/default",
+      "description": "Symfony",
+      "link": "https://symfony.com/doc/current/setup/web_server_configuration.html"
+    },
+    {
+      "title": "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      "description": "Google AdSense",
+      "link": "https://www.google.com/adsense/start/"
+    },
+    {
+      "title": "cms/config.php",
+      "description": "phpMyAdmin",
+      "link": "https://www.phpmyadmin.net/"
+    }
+  ]

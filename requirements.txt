@@ -4,3 +4,8 @@ itsdangerous
 Jinja2
 MarkupSafe
 Werkzeug
+python-geoip
+python-geoip-geolite2
+python-whois
+flask-talisman
+flask-apscheduler
