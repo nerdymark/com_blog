@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+        <!-- Single Content -->
+        <div id="content" class="site-content center-relative">
+            <div class="single-post-wrapper content-1070 center-relative">
+
+                <article class="center-relative">
+                    <h1 class="entry-title">
+                        {{post.title}}
+                    </h1>
+                    <div class="post-info content-660 center-relative">
+                        <div class="cat-links">
+                            <ul>
+                                <li><a href="/category/{{post.category}}">{{post.category}}</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-date published">{{post.createdDate}}</div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="entry-content">
+                        </div>
+                        <div class="content-wrap content-660 center-relative ">
+                        {{post.description}}    
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </article>
+            </div>
+        </div>
+{% endblock %}

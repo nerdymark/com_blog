@@ -1,10 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ title }}</title>
-</head>
-<body>
+<!DOCTYPE HTML>
+<!-- WeB dEsIgN iS mY pAsSiOn!!1! -->
+<html lang="en-US">
+    <head>
+        <title>{{siteName}}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="nerdymark.com" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="@nerdymark" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-</body>
+        <link rel="shortcut icon" href="/static/images/favicon.png" />
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7CLibre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css"  href='/static/css/clear.css' />
+        <link rel="stylesheet" type="text/css"  href='/static/css/common.css' />
+        <!-- <link rel="stylesheet" type="text/css"  href='/static/css/font-awesome.min.css' /> -->
+        <script src="https://kit.fontawesome.com/d3f16a4b9a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css"  href='/static/css/carouFredSel.css' />
+        <link rel="stylesheet" type="text/css"  href='/static/css/sm-clean.css' />
+        <link rel="stylesheet" type="text/css"  href='/static/style.css' />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0494378665632190" crossorigin="anonymous"></script>
+        <!--[if lt IE 9]>
+                <script src="/static/js/html5.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8PDSL7WVFS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8PDSL7WVFS');
+    </script>
+
+
+    <body class="home blog">
+
+        <!-- Preloader Gif -->
+        <table class="doc-loader">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="/static/images/ajax-document-loader.gif" alt="Loading...">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Left Sidebar -->
+        <div id="sidebar" class="sidebar">
+            <div class="menu-left-part">
+                <!-- <div class="search-holder">
+                    <label>
+                        <input type="search" class="search-field" placeholder="Type here to search..." value="" name="s" title="Search for:">
+                    </label>
+                </div>
+                -->
+                <div class="site-info-holder">
+                    <h1 class="site-title">{{ siteName }}</h1>
+                    <p class="site-description">
+                        {{ description }}
+                    </p>
+                </div>
+                <nav id="header-main-menu">
+                    <ul class="main-menu sm sm-clean">
+                        <li><a href="/" class="current">home</a></li>
+                        <li><a href="/about">about</a></li>
+                        <li><a href="/contact">contact</a></li>
+                        <li><a href="/resume">resume</a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <div class="footer-info">
+                        © 2023 nerdymark.com. All Rights Reserved.
+                    </div>
+                </footer>
+            </div>
+            <div class="menu-right-part">
+                <div class="logo-holder">
+                    <a href="/">
+                        <img src="/static/images/logo.png" alt="nerdymark.com">
+                    </a>
+                </div>
+                <div class="toggle-holder">
+                    <div id="toggle">
+                        <div class="menu-line"></div>
+                    </div>
+                </div>
+                <div class="social-holder">
+                    <!-- Open offsite content in a new tab -->
+                    <div class="social-list">
+                        <a href="/resume"><i class="fa-solid fa-file"></i></a>
+                        <a href="https://twitter.com/nerdymark" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://youtube.com/nerdymark" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://instagram.com/nerdymark" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://tiktok.com/@nerdymark" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.linkedin.com/in/marklacore/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/nerdymark" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="fixed scroll-top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <!-- Home Content -->
+        <div id="content" class="site-content">
+            <div id="blog-wrapper">
+                <div class="blog-holder center-relative">
+
+                    {% block main %}
+                    {% endblock %}
+
+                    {% for post in posts %}       
+                    <article id={{post.id}} class="blog-item-holder featured-post">
+                        <div class="entry-content relative">
+                            <div class="content-1170 center-relative">
+                                <div class="cat-links">
+                                    <ul>
+                                        <li>
+                                            <a href="/category/{{post.category}}">{{post.category}}</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="entry-date published">{{post.createdDate}}</div>
+                                <h2 class="entry-title">
+                                    <a href="/post/{{post.id}}">{{post.title}}</a>
+                                </h2>
+                                <div class="excerpt">
+                                    {{post.description}}
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+                    {% endfor %}
+
+                </div>
+                <div class="clear"></div>
+                <!-- <div class="block load-more-holder">next</div> -->
+            </div>
+
+            <div class="featured-image-holder">
+                <div class="featured-post-image" style="background-image: url({{randomImage}})"></div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+
+        <!--Load JavaScript-->
+        <script type="text/javascript" src="/static/js/jquery.js"></script>
+        <script type='text/javascript' src='/static/js/imagesloaded.pkgd.js'></script>
+        <script type='text/javascript' src='/static/js/jquery.nicescroll.min.js'></script>
+        <script type='text/javascript' src='/static/js/jquery.smartmenus.min.js'></script>
+        <script type='text/javascript' src='/static/js/jquery.carouFredSel-6.0.0-packed.js'></script>
+        <script type='text/javascript' src='/static/js/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript' src='/static/js/jquery.touchSwipe.min.js'></script>
+        <script type='text/javascript' src='/static/js/jquery.easing.1.3.js'></script>
+        <script type='text/javascript' src='/static/js/main.js'></script>
+    </body>
 </html>
