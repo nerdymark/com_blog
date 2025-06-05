@@ -1,0 +1,443 @@
+/* Love-themed color scheme - DARKER */
+:root {
+    --primary-color: #ff1744;
+    --secondary-color: #ad1457;
+    --accent-color: #ff6f00;
+    --text-color: #ffffff;
+    --background-color: #0a0a0a;
+    --panel-bg: rgba(10, 10, 10, 0.8);
+    --border-color: #ff1744;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%);
+    color: var(--text-color);
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.love-container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Floating hearts background - darker */
+.hearts-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(2px 2px at 20px 30px, #ff1744, transparent),
+        radial-gradient(2px 2px at 40px 70px, #ad1457, transparent),
+        radial-gradient(1px 1px at 90px 40px, #ff6f00, transparent);
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    animation: heartFloat 20s linear infinite;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+@keyframes heartFloat {
+    0% { transform: translateY(0px) translateX(0px); }
+    100% { transform: translateY(-200px) translateX(50px); }
+}
+
+/* Wireframe heart canvas */
+#wireframe-heart {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Main content */
+.main-content {
+    position: relative;
+    z-index: 10;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Love scroller - darker background */
+.scroller-container {
+    width: 80%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 30px rgba(255, 23, 68, 0.5);
+}
+
+#love-scroller {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 48px;
+    font-weight: bold;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wave-char {
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 0 15px currentColor;
+    animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.7; }
+    100% { opacity: 1; }
+}
+
+/* Love panel - much darker */
+.love-panel {
+    background: var(--panel-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+    padding: 30px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px rgba(255, 23, 68, 0.4);
+    max-width: 600px;
+    width: 90%;
+}
+
+.love-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+    text-shadow: 0 0 30px var(--primary-color);
+    animation: heartbeat 2s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 50%, 100% { transform: scale(1); }
+    25%, 75% { transform: scale(1.05); }
+}
+
+.love-description {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    color: #ffcdd2;
+}
+
+/* Vegas wedding banner - darker */
+.wedding-banner {
+    background: linear-gradient(45deg, #ff6f00, #ff1744);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    text-align: center;
+    border: 2px solid #ff6f00;
+    box-shadow: 0 0 30px rgba(255, 111, 0, 0.6);
+}
+
+.wedding-banner h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.vegas-tagline {
+    margin: 0;
+    font-style: italic;
+    color: #fff;
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Orbital container for love icons */
+.orbital-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    perspective: 800px;
+    transform-style: preserve-3d;
+}
+
+.orbital-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    box-shadow: 
+        0 0 30px rgba(255, 23, 68, 0.8),
+        0 0 60px rgba(255, 111, 0, 0.6),
+        inset 0 0 20px rgba(255, 255, 255, 0.2);
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    animation: vegasGlow 2s ease-in-out infinite alternate;
+}
+
+.orbit-1 { animation: loveOrbit 12s linear infinite, vegasGlow 2s ease-in-out infinite alternate; animation-delay: 0s; }
+.orbit-2 { animation: loveOrbit 12s linear infinite, vegasGlow 2s ease-in-out infinite alternate; animation-delay: -2.4s; }
+.orbit-3 { animation: loveOrbit 12s linear infinite, vegasGlow 2s ease-in-out infinite alternate; animation-delay: -4.8s; }
+.orbit-4 { animation: loveOrbit 12s linear infinite, vegasGlow 2s ease-in-out infinite alternate; animation-delay: -7.2s; }
+.orbit-5 { animation: loveOrbit 12s linear infinite, vegasGlow 2s ease-in-out infinite alternate; animation-delay: -9.6s; }
+
+@keyframes loveOrbit {
+    0% {
+        transform: translateX(70px) translateY(0px) translateZ(50px) scale(1.2);
+        opacity: 1;
+    }
+    25% {
+        transform: translateX(0) translateY(-70px) translateZ(70px) scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translateX(-70px) translateY(0px) translateZ(50px) scale(0.8);
+        opacity: 0.6;
+    }
+    75% {
+        transform: translateX(0) translateY(70px) translateZ(-50px) scale(0.6);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translateX(70px) translateY(0px) translateZ(50px) scale(1.2);
+        opacity: 1;
+    }
+}
+
+@keyframes vegasGlow {
+    0% { 
+        box-shadow: 
+            0 0 30px rgba(255, 23, 68, 0.8),
+            0 0 60px rgba(255, 111, 0, 0.6);
+    }
+    100% { 
+        box-shadow: 
+            0 0 50px rgba(255, 23, 68, 1),
+            0 0 100px rgba(255, 111, 0, 0.8);
+    }
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--text-color);
+    font-size: 1rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .love-title {
+        font-size: 2rem;
+    }
+    
+    #love-scroller {
+        font-size: 32px;
+    }
+    
+    .orbital-container {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .orbital-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        margin-left: -20px;
+        margin-top: -20px;
+    }
+}
+
+/* Slot Machine Styles */
+.slot-machine-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.slot-machine {
+    background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+    border: 3px solid var(--accent-color);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 
+        0 0 30px rgba(255, 111, 0, 0.6),
+        inset 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.slot-display {
+    display: flex;
+    gap: 10px;
+    background: #000;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.slot-reel {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(145deg, #333, #111);
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--text-color);
+    text-shadow: 0 0 15px currentColor;
+    box-shadow: 
+        0 0 20px rgba(255, 23, 68, 0.5),
+        inset 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.slot-label {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    text-shadow: 0 0 10px var(--accent-color);
+    letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+    .slot-reel {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    
+    .slot-label {
+        font-size: 0.9rem;
+    }
+}
+
+/* NerdyMark footer link styling */
+.nerdymark-footer {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 10px rgba(255, 111, 0, 0.5);
+    background: linear-gradient(45deg, #ff6f00, #ff9800, #ff6f00);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 3s ease-in-out infinite;
+}
+
+.nerdymark-footer:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 20px rgba(255, 111, 0, 0.8);
+    animation: glow-pulse 0.5s ease-in-out infinite alternate;
+}
+
+.nerdymark-footer::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #ff6f00, #ff9800, #ffb74d);
+    transition: width 0.3s ease;
+    border-radius: 1px;
+    box-shadow: 0 0 8px rgba(255, 111, 0, 0.6);
+}
+
+.nerdymark-footer:hover::before {
+    width: 100%;
+}
+
+.nerdymark-footer::after {
+    content: '✨';
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 0.8em;
+    opacity: 0;
+    transform: translateY(5px) rotate(0deg);
+    transition: all 0.3s ease;
+}
+
+.nerdymark-footer:hover::after {
+    opacity: 1;
+    transform: translateY(-5px) rotate(180deg);
+    animation: sparkle 0.6s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes glow-pulse {
+    0% {
+        text-shadow: 0 0 20px rgba(255, 111, 0, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 30px rgba(255, 111, 0, 1), 0 0 40px rgba(255, 152, 0, 0.6);
+    }
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        transform: translateY(-5px) rotate(180deg) scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-8px) rotate(270deg) scale(1.2);
+        opacity: 0.7;
+    }
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .nerdymark-footer {
+        font-size: 0.9em;
+    }
+    
+    .nerdymark-footer::after {
+        top: -12px;
+        right: -8px;
+        font-size: 0.7em;
+    }
+}
