@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Pure vibes ;)
     // Load love messages from file
     fetch('/static/love-demo-messages.txt')
         .then(response => response.text())
